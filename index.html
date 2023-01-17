@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="Primary_header">
+      <div class="container">
+        <div class="navigation flex">
+          <div class="logo">
+            <a href="#" aria-label="W. logo"><img src="assets/images/logo.svg" alt="W."></a>
+          </div>
+          <!-- <input type="checkbox" id="active">
+          <label for="active" class="menu-btn"><span></span></label>
+          <label for="active" class="close"></label> -->
+          <button class="mobile__toggle" aria-controls="mobile__navigation" aria-expanded="false"></button>
+          <nav>
+            <ul id="mobile__navigation" data-visible="false" class="nav_links flex">
+              <li><a class="nav_link h_effect" href="#" target="_blank">Home</a></li>
+              <li><a class="nav_link h_effect" href="#" target="_blank">New</a></li>
+              <li><a class="nav_link h_effect" href="#" target="_blank">Popular</a></li>
+              <li><a class="nav_link h_effect" href="#" target="_blank">Trending</a></li>
+              <li><a class="nav_link h_effect" href="#" target="_blank">Categories</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="container">
+        <section class="main__section grid">
+          <div class="primary__section flex">
+            <picture>
+              <source srcset="assets/images/image-web-3-desktop.jpg" media="(min-width: 715px)"/>
+              <img src="assets/images/image-web-3-mobile.jpg" alt="">
+            </picture>
+            <div class="CTA__part flex">
+              <h1 class="clr__800">The Bright Future of Web 3.0?</h1>
+              <div class="CTA__btn">
+                <p>We dive into the next evolution of the web that claims to put the power of the platforms
+                  back into the hands of the people. But is it really fulfilling its promise?</p>
+                  <button class="btn">read more</button>
+              </div>
+            </div>
+          </div>
+          <aside class="flow">
+            <h2>New</h2>
+            <div class="aside__txt p__block">
+              <h3 class="aside__txt_p">Hydrogen VS Electric Cars</h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+
+            <div class="aside__txt p__block">
+              <h3 class="aside__txt_p">The Downsides of A1 Artistry</h3>
+              <p>What are the adverse effects Of on-demand A1 image generation?</p>
+            </div>
+
+            <div class="aside__txt clear">
+              <h3 class="aside__txt_p">IS VC Funding Drying Up?</h3>
+              <p>Private funding by VC firms is down 50% YOY, We take a 100k at What that means.</p>
+            </div>
+          </aside>
+        </section>
+
+        <section class="categories__section">
+          <div class="categorie__items">
+            <img src="assets/images/image-retro-pcs.jpg" alt="">
+            <div class="categorie__contains">
+              <h3>01</h3>
+              <p class="clr__800 h_effect">Reviving Retro PCs</p>
+              <p>What happens when old PCs
+                are given modern upgrades?</p>
+            </div>
+          </div>
+
+          <div class="categorie__items">
+            <img src="assets/images/image-top-laptops.jpg" alt="">
+            <div class="categorie__contains">
+              <h3>02</h3>
+              <p class="clr__800 h_effect">Top 10 Laptops of 2022</p>
+              <p>Our best picks for various
+                needs and budgets.</p>
+            </div>
+          </div>
+
+          <div class="categorie__items">
+            <img src="assets/images/image-gaming-growth.jpg" alt="">
+            <div class="categorie__contains">
+              <h3>03</h3>
+              <p class="clr__800 h_effect">The Growth of Gaming</p>
+              <p>How the pandemic has sparked
+                fresh opportunities.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Vinay Maurya</a>.
+    </footer>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="main.js"></script> 
+  </body>
+</html>
